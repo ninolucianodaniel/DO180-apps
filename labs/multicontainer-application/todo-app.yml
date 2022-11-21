@@ -29,7 +29,7 @@ items:
     volumes:
     - name: db-volume
       persistentVolumeClaim:
-        claimName: dbClaim
+        claimName: dbclaim
 
 - apiVersion: v1
   kind: Pod
